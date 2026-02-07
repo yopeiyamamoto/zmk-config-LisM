@@ -34,7 +34,7 @@ layers:
   - X
   - LEFT ALT
   - TAB
-  - LANGUAGE 2
+  - A
   - {t: SPACE, h: Number Layer}
   - {t: LANG1, h: Mark Layer}
   - BS
