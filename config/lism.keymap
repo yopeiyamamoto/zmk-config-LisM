@@ -16,10 +16,7 @@
 &lt { quick-tap-ms = <300>; };
 
 &central_listener {
-    // オートマウスレイヤー設定（レイヤー4に2秒間ジャンプ）
     input-processors = <&zip_temp_layer 4 2000>;
-    
-    // スクロールレイヤー設定（レイヤー5でスクロール有効）
     scroller {
         layers = <5>;
         input-processors = <&zip_xy_to_scroll_mapper &zip_scroll_scaler 1 3>;
@@ -175,9 +172,9 @@
             >;
         };
 
-        layer_6 
-            display-name = "Brank Layer";
-            bindings = <
+       layer_6 {
+    display-name = "System Layer";
+    bindings = <
 &trans                 &kp LA(LG(KP_NUMBER_7))    &kp LA(LC(BACKSPACE))  &kp LG(LA(KP_NUMBER_9))  &kp LG(LS(NUMBER_4))                          &bt BT_SEL 0       &bt BT_SEL 1           &bt BT_SEL 2              &bt BT_SEL 3               &bt BT_SEL 4
 &kp LC(BACKSPACE)      &kp LA(LG(BACKSPACE))      &kp LA(LG(SPACE))      &kp LG(LA(ENTER))        &kp LC(ENTER)                                 &kp LC(BACKSLASH)  &kp BACKSPACE          &kp LA(LS(NUMBER_3))      &kp B                      &trans
 &kp LG(LC(LA(Q)))      &kp LA(LG(KP_NUMBER_1))    &kp LC(LA(ENTER))      &kp KP_NUMBER_3          &kp LC(LA(LG(A)))                             &kp LG(LC(LEFT))   &kp LG(LC(RIGHT))      &kp LA(LG(LEFT_BRACKET))  &kp LA(LG(RIGHT_BRACKET))  &bt BT_CLR
