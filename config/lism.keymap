@@ -162,7 +162,6 @@
         };
 
         SCROLL {
-            status = "reserved";
             display-name = "Brank Layer";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
@@ -183,7 +182,6 @@
         };
 
         layer_7 {
-            status = "reserved";
             display-name = "Brank Layer";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
