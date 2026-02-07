@@ -1,17 +1,6 @@
 {
   "id": "LisM",
   "name": "LisM",
-
-  "layers": [
-    "Default Layer",  // 0
-    "FUNCTION",       // 1
-    "NUM",            // 2
-    "ARROW",          // 3
-    "MOUSE",          // 4
-    "SCROLL",         // 5
-    "LAYER_6"         // 6
-  ],
-
   "layouts": {
     "LisM": {
       "layout": [
@@ -63,7 +52,6 @@
       ]
     }
   },
-
   "sensors": [
     {
       "ref": "encoder",
