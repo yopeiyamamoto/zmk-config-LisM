@@ -15,7 +15,7 @@
 
 &lt { quick-tap-ms = <300>; };
 
-&trackball_listener {
+&central_listener {
     input-processors = <&zip_temp_layer 4 2000>;
     scroller {
         layers = <5>;
