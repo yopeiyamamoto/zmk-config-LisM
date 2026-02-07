@@ -1,6 +1,5 @@
 &spi0 {
     status = "okay";
-
     trackball_central: trackball@1 {
         status = "okay";
         compatible = "pixart,paw3222";
@@ -19,10 +18,7 @@
 &central_listener {
     status = "okay";
     device = <&trackball_central>;
-    // X・Y軸反転の設定のみここに記述
     input-processors = 
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
-    
-    // スクロール設定は削除（keymapで定義するため）
-    // scroller { ... } の部分を削除
+    // scroller設定は削除（keymapで管理）
 };
