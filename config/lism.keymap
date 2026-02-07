@@ -175,8 +175,7 @@
             >;
         };
 
-        layer_6 {
-            status = "reserved";
+        layer_6 
             display-name = "Brank Layer";
             bindings = <
 &trans                 &kp LA(LG(KP_NUMBER_7))    &kp LA(LC(BACKSPACE))  &kp LG(LA(KP_NUMBER_9))  &kp LG(LS(NUMBER_4))                          &bt BT_SEL 0       &bt BT_SEL 1           &bt BT_SEL 2              &bt BT_SEL 3               &bt BT_SEL 4
