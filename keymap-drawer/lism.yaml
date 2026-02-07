@@ -33,7 +33,7 @@ layers:
   - RIGHT ALT
   - X
   - LEFT ALT
-  - TAB
+  - {t: LANG2, h: System Layer}
   - A
   - {t: SPACE, h: Number Layer}
   - {t: LANG1, h: Mark Layer}
@@ -215,6 +215,110 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  Brank Layer:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  System Layer:
+  - {t: ▽, type: trans}
+  - Alt+Gui+KP 7
+  - Alt+Ctl+BS
+  - Gui+Alt+KP 9
+  - Gui+Sft+4
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - Ctl+BS
+  - Alt+Gui+BS
+  - Alt+Gui+SPACE
+  - Gui+Alt+ENTER
+  - Ctl+ENTER
+  - Ctl+\
+  - BS
+  - Alt+Sft+3
+  - B
+  - {t: ▽, type: trans}
+  - Gui+Ctl+Alt+Q
+  - Alt+Gui+KP 1
+  - Ctl+Alt+ENTER
+  - KP 3
+  - Ctl+Alt+Gui+A
+  - Gui+Ctl+←
+  - Gui+Ctl+→
+  - Alt+Gui+[
+  - Alt+Gui+]
+  - BT CLR
+  - Ctl+]
+  - Gui+Ctl+]
+  - {t: Gui+Alt+PERIOD, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP ENTER
+  - KP 3
+  - Gui+Ctl+\
+  - Ctl+\
+  - {t: ▽, type: trans}
+  - BT CLR ALL
 combos:
 - p: [0, 1]
   k: ESCAPE
+- p: [16, 15]
+  k: Ctl+←
+- p: [18, 19]
+  k: Ctl+→
+- p: [11, 12]
+  k: TAB
+- p: [12, 13]
+  k: Sft+TAB
+- p: [20, 21]
+  k: ':'
+- p: [30, 31]
+  k: ','
+- p: [4, 14]
+  k: P
+- p: [14, 24]
+  k: ;
+- p: [17, 18]
+  k: {t: LANG9, h: Brank Layer}
