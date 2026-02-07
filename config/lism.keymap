@@ -52,6 +52,51 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        desktop_left {
+            bindings = <&kp LC(LEFT)>;
+            key-positions = <16 15>;
+        };
+
+        desktop_right {
+            bindings = <&kp LC(RIGHT)>;
+            key-positions = <18 19>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
+        };
+
+        shift_tabj {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <12 13>;
+        };
+
+        coron {
+            bindings = <&kp COLON>;
+            key-positions = <20 21>;
+        };
+
+        comma {
+            bindings = <&kp COMMA>;
+            key-positions = <30 31>;
+        };
+
+        PT_p {
+            bindings = <&kp P>;
+            key-positions = <4 14>;
+        };
+
+        PT_semicoron {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <14 24>;
+        };
+
+        scroll {
+            bindings = <&lt 5 LANG9>;
+            key-positions = <17 18>;
+        };
     };
 
     keymap {
@@ -60,10 +105,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q           &kp W         &kp E    &kp R  &kp T                                      &kp Y        &kp U       &kp I          &kp O      &kp P
-&kp A           &kp S         &kp D    &kp F  &kp G                                      &kp H        &kp J       &kp K          &kp L      &mt RIGHT_COMMAND MINUS
-&kp LEFT_SHIFT  &kp Z         &kp C    &kp V  &kp B                                      &kp N        &kp M       &kp COMMA      &kp DOT    &kp RIGHT_ALT
-&kp X           &kp LEFT_ALT  &kp TAB  &kp A  &lt 2 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 1 ENTER  &kp DELETE  &kp SEMICOLON  &kp COLON  &kp RIGHT_CONTROL
+&kp Q           &kp W         &kp E        &kp R  &kp T                                      &kp Y        &kp U       &kp I          &kp O      &kp P
+&kp A           &kp S         &kp D        &kp F  &kp G                                      &kp H        &kp J       &kp K          &kp L      &mt RIGHT_COMMAND MINUS
+&kp LEFT_SHIFT  &kp Z         &kp C        &kp V  &kp B                                      &kp N        &kp M       &kp COMMA      &kp DOT    &kp RIGHT_ALT
+&kp X           &kp LEFT_ALT  &lt 6 LANG2  &kp A  &lt 2 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 1 ENTER  &kp DELETE  &kp SEMICOLON  &kp COLON  &kp RIGHT_CONTROL
             >;
         };
 
