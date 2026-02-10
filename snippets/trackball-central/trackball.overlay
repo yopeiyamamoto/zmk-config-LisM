@@ -20,13 +20,13 @@
     input-processors = 
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
         <&zip_xy_scaler 2 3>,
-        <&zip_temp_layer 4 500>;  // 1000ms → 500ms に変更
+        <&zip_temp_layer 4 500>;
     
     scroller {
         layers = <5>;
         input-processors = 
+            <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,  // 順序を変更：マッパーの前に配置
             <&zip_xy_to_scroll_mapper>,
-            <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,  // 左右反転を追加
             <&zip_scroll_scaler 1 6>;
     };
 };
