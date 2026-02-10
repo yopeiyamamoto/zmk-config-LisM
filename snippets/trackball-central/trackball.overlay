@@ -17,15 +17,16 @@
     status = "okay";
     device = <&trackball_central>;
     
-   input-processors = 
+    input-processors = 
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
-        <&zip_xy_scaler 2 3>,      // カーソル速度を1.5倍に（お好みで調整）
-        <&zip_temp_layer 4 1000>;
+        <&zip_xy_scaler 2 3>,
+        <&zip_temp_layer 4 500>;  // 1000ms → 500ms に変更
     
     scroller {
         layers = <5>;
         input-processors = 
             <&zip_xy_to_scroll_mapper>,
+            <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,  // 左右反転を追加
             <&zip_scroll_scaler 1 4>;
     };
 };
