@@ -27,6 +27,6 @@
         input-processors = 
             <&zip_xy_to_scroll_mapper>,
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,  // 左右反転を追加
-            <&zip_scroll_scaler 1 4>;
+            <&zip_scroll_scaler 1 6>;
     };
 };
