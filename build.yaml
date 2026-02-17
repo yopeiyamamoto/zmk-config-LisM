@@ -6,10 +6,10 @@ include:
     shield: lism_left rgbled_adapter
     snippet: non-trackball-peripheral
     artifact-name: lism_left_peripheral_non_trackball
-  - board: seeeduino_xiao_ble
-    shield: lism_left rgbled_adapter
-    snippet: trackball-peripheral
-    artifact-name: lism_left_peripheral_trackball
+# - board: seeeduino_xiao_ble
+  #   shield: lism_left rgbled_adapter
+  #   snippet: trackball-peripheral
+  #   artifact-name: lism_left_peripheral_trackball
   - board: seeeduino_xiao_ble
     shield: lism_right rgbled_adapter
     snippet: non-trackball-central
