@@ -30,3 +30,11 @@
             <&zip_scroll_scaler 1 6>;
     };
 };
+
+// MB1(位置16)とMB2(位置18)以外のキーを押すとレイヤー4から即座に抜ける
+&zip_temp_layer {
+    excluded-positions = 
+        16  // MB1（左クリック）
+        18  // MB2（右クリック）
+    >;
+};
