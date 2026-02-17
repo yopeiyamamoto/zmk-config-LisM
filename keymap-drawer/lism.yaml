@@ -33,8 +33,8 @@ layers:
   - RIGHT ALT
   - X
   - LEFT ALT
-  - {t: LANG2, h: System Layer}
-  - A
+  - TAB
+  - {t: LANGUAGE 2, h: System Layer}
   - {t: SPACE, h: Number Layer}
   - {t: LANG1, h: Mark Layer}
   - BS
@@ -291,8 +291,8 @@ layers:
   - BT CLR
   - Ctl+]
   - Gui+Ctl+]
-  - {t: Gui+Alt+PERIOD, type: held}
-  - {t: ▽, type: trans}
+  - Gui+Alt+PERIOD
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP ENTER
