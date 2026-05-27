@@ -16,7 +16,7 @@
 &lt { quick-tap-ms = <300>; };
 
 &central_listener {
-    input-processors = <&zip_temp_layer 4 2000>;
+    input-processors = <&zip_temp_layer 4 500>;
 
     scroller {
         layers = <5>;
@@ -157,7 +157,7 @@
             display-name = "Device Layer";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans    &trans
             >;
