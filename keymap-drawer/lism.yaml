@@ -322,5 +322,3 @@ combos:
   k: ;
 - p: [17, 18]
   k: {t: LANG9, h: Brank Layer}
-- p: [10, 11]
-  k: Ctl+←
