@@ -108,6 +108,11 @@
             bindings = <&lt 5 LANG9>;
             key-positions = <17 18>;
         };
+
+        desktop {
+            bindings = <&kp RC(LEFT)>;
+            key-positions = <10 11>;
+        };
     };
 
     keymap {
@@ -156,10 +161,10 @@
         MOUSE {
             display-name = "Device Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
             >;
         };
 
