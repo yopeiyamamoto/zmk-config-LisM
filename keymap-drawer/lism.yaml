@@ -282,7 +282,7 @@ layers:
   - Gui+Ctl+Alt+Q
   - Alt+Gui+KP 1
   - Ctl+Alt+ENTER
-  - KP 3
+  - Alt+Gui+KP 3
   - Ctl+Alt+Gui+A
   - Gui+Ctl+←
   - Gui+Ctl+→
